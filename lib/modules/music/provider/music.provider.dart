@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -20,7 +19,7 @@ class MusicProvider extends ChangeNotifier {
   String get message => _message;
 
   // List of music
-  List<Result> _musics = [];
+  final List<Result> _musics = [];
   List<Result> get musics => _musics;
 
   // Function to get music from itunes search api

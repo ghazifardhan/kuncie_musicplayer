@@ -1,8 +1,4 @@
-import 'dart:async';
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:kuncie_musicplayer/modules/music/screens/music.screen.dart';
 
 void main() {

@@ -5,10 +5,8 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:test/test.dart';
 
-import 'package:kuncie_musicplayer/main.dart';
 import 'package:kuncie_musicplayer/modules/music/models/music.model.dart';
 import 'package:kuncie_musicplayer/modules/music/provider/music_player.provider.dart';
 
